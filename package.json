@@ -1,0 +1,11 @@
+{
+  "name": "cerulean",
+  "version": "1.0.0",
+  "description": "Cerulean Bubblegum website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Sibley <jesse_sibley@outlook.com>",
+  "license": "ISC"
+}

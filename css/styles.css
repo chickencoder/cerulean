@@ -1,0 +1,146 @@
+/**
+  cerulean bubblegum theme
+  Jesse             Sibley
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+
+body {
+  font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica , Arial, sans-serif;
+  font-weight: normal;
+}
+
+nav {
+  font-size: 110%;
+}
+
+.navbar-brand {
+  font-size: 200%;
+  color: #1DACD6;
+  font-weight: bolder;
+}
+
+.navbar-brand:hover {
+  font-size: 200%;
+  color: #2DADD2;
+  font-weight: bolder;
+}
+
+.navbar-brand:active {
+  font-size: 200%;
+  color: #2DADD2;
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #333;
+}
+
+.nav-link:active {
+  color: #333;
+}
+
+.nav-active {
+  border-bottom: 0.25rem solid #333;
+}
+
+#links {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-pills {
+    float: middle !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-pills {
+  }
+
+  .nav-item {
+    
+  }
+}
+
+.nav-pills, .nav-links {
+  margin-top: 0.2rem;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.banner {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background:
+}
+
+.btn-primary-outline {
+  border: 1px solid #1DACD6;
+}
+
+.btn-primary-outline:hover {
+  border: 1px solid #1DACD6;
+  background: #1DACD6;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+
+  .cat {
+    margin-bottom: 2rem;
+  }
+}
+
+#top-banner {
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#bottom-banner {
+  text-align: left;
+}
+
+footer {
+  height: 100px;
+  color: #818A91;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-left: 3rem;
+}
+
+#footer-text {
+  font-size: 1rem;
+}
+
+.filled-background {
+  background-color: #1DACD6;
+  background-image: url(http://www.transparenttextures.com/patterns/axiom-pattern.png);
+  color: white;
+}
+
+.cat-heading {
+  margin-bottom: 2rem;
+}
+
+.cat-content {
+  margin-top: 1rem;
+}
